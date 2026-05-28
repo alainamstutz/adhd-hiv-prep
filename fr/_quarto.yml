@@ -18,6 +18,8 @@ website:
             href: Materials.qmd
           - text: Protocole
             href: Protocol.qmd
+          - text: Plan d’analyse statistique
+            href: SAP.qmd
           - text: Brochure produit
             href: Brochure.qmd
           - text: Publications scientifiques

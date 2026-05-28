@@ -18,6 +18,8 @@ website:
             href: Materials.qmd
           - text: Studienprotokoll
             href: Protocol.qmd
+          - text: Analyseplan
+            href: SAP.qmd
           - text: Produkte Informationsbroschüren
             href: Brochure.qmd
           - text: Wissenschaftliche Publikationen

@@ -18,6 +18,8 @@ website:
             href: Materials.qmd
           - text: Protocol
             href: Protocol.qmd
+          - text: SAP
+            href: SAP.qmd
           - text: Product Brochure
             href: Brochure.qmd
           - text: Scientific publications
