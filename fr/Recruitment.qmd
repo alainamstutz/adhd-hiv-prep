@@ -2,6 +2,14 @@
 title: "Recrutement"
 ---
 
+*Traduction française à venir.*
+
+Recruitment is planned to start in **November 2026** and will run for
+approximately 12 months across the three participating sites
+(Checkpoint Zurich, University Hospital Lausanne (CHUV) and
+University Hospital Zurich (USZ)). A target of **800 participants**
+is planned in each of the two cohorts, the Swiss HIV Cohort Study
+(SHCS) and SwissPrEPared.
 
 ```{r setup, include=FALSE}
 library(plotly)
@@ -10,113 +18,66 @@ library(lubridate)
 library(readxl)
 ```
 
-```{r fig1, echo=FALSE}
-#load data set
-df <- read_excel("../RETUNE_recruitment.xlsx")
+```{r load-data, include=FALSE}
+df <- read_excel("../ADHD_HIV_PrEP_recruitment.xlsx")
 
-#Make sure that Date is in date format 
-df <- df %>% 
- mutate(Date = as.Date(Date))
-
-#Sort from oldest to newest 
-df <- df %>% 
-   arrange(Date)
-
-#Create variable with total number of randomized participants 
 df <- df %>%
-  mutate(Total = row_number())
+  mutate(Date = as.Date(Date)) %>%
+  arrange(Date)
 
-#Create a plot 
-plot_total <- plot_ly() %>%
-  # First trace: TotalIntervention
-  add_trace(
-    data = df,
-    x = ~Date,
-    y = ~Total,
-    type = "scatter",
-    mode = "lines+markers",
-    fill = "tozeroy",         # fill area down to y=0
-    name = "Total Intervention"
-  ) %>%
-  layout(
-    title = "Recrutement au fil du temps",
-    xaxis = list(title = "Date", type = "date"),
-    yaxis = list(title = "Nombre de participants")
-  )
+make_recruitment_plot <- function(data, cohort_name) {
+  data_cohort <- data %>%
+    filter(Cohort == cohort_name) %>%
+    arrange(Date) %>%
+    mutate(Total = row_number())
 
-plot_total
+  p <- plot_ly()
+
+  if (nrow(data_cohort) > 0) {
+    p <- p %>%
+      add_trace(
+        data = data_cohort,
+        x = ~Date,
+        y = ~Total,
+        type = "scatter",
+        mode = "lines+markers",
+        fill = "tozeroy",
+        name = paste("Total", cohort_name)
+      )
+  } else {
+    p <- p %>%
+      layout(
+        annotations = list(
+          list(
+            text = "Le recrutement n'a pas encore commencé.<br>Début prévu : novembre 2026",
+            xref = "paper", yref = "paper",
+            x = 0.5, y = 0.5,
+            showarrow = FALSE,
+            font = list(size = 16)
+          )
+        )
+      )
+  }
+
+  p %>%
+    layout(
+      title = paste("Recrutement au fil du temps —", cohort_name),
+      xaxis = list(title = "Date", type = "date"),
+      yaxis = list(title = "Nombre de participants", rangemode = "tozero")
+    )
+}
 ```
 
+## Swiss HIV Cohort Study (SHCS)
 
-<!-- Add some space with a div or br tags --> <div style="margin-top: 150px;"></div>
+```{r fig-shcs, echo=FALSE}
+make_recruitment_plot(df, "SHCS")
+```
 
-```{r fig2, echo=FALSE}
-#Create a data set with people randomized to intervention group
-df_intervention <- df %>%
-  filter(Intervention == 1) %>%
-  mutate(TotalIntervention = row_number())
+<!-- Add some space --> <div style="margin-top: 100px;"></div>
 
-#Create a varible for total uptake over time 
-df_intervention <- df_intervention %>%   
-  arrange(Date) %>%   # Ensure rows are in chronological order
-  mutate(Uptake = as.numeric(Uptake)) %>% # Convert Uptake to numeric just in case it's not (e.g. factor)
-  mutate(Totaluptake = cumsum(Uptake))   # Create a running sum of Uptake
+## SwissPrEPared
 
-#Create a plot 
-p_intervention <- plot_ly() %>%
-  # First trace: TotalIntervention
-  add_trace(
-    data = df_intervention,
-    x = ~Date,
-    y = ~TotalIntervention,
-    type = "scatter",
-    mode = "lines+markers",
-    fill = "tozeroy",         # fill area down to y=0
-    name = "Total groupe d'intervention"
-  ) %>%
-  # Second trace: Totaluptake
-  add_trace(
-    data = df_intervention,
-    x = ~Date,
-    y = ~Totaluptake,
-    type = "scatter",
-    mode = "lines+markers",
-    fill = "tozeroy",
-    name = "Total Uptake groupe d'intervention"
-  ) %>%
-  layout(
-      title = "Groupe d'intervention au fil du temps",
-      xaxis = list(title = "Date", type = "date"),
-      yaxis = list(title = "Nombre de participants"), 
-        legend = list(
-      orientation = "h",   # Horizontal legend
-      x = 0.5,             # Center it horizontally
-      y = -0.2,            # Place it below the plot
-      xanchor = "center"
-    )
-  )
-
-#This is the code to add a dashed horizontal line for the target uptake 
-#p_intervention <- p_intervention %>%
-#  layout(
-#   shapes = list(
-#    list(
-#       type = "line",
-#       xref = "paper", x0 = 0, x1 = 1,
-#       yref = "y", y0 = 256, y1 = 256,
-#      line = list(color = "black", dash = "dash")
-#     )
-#   ),
-#   annotations = list(
-#     list(
-#       xref = "paper", x = 0.98,  # near right edge
-#       yref = "y",     y = 256,
-#       xanchor = "left",
-#       text = "Target = 256",
-#       showarrow = FALSE
-#     )
-#   )
-# )
-
-p_intervention
+```{r fig-swissprepared, echo=FALSE}
+make_recruitment_plot(df, "SwissPrEPared")
 ```

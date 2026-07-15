@@ -1,0 +1,11 @@
+---
+title: "Salvatore Corbisiero"
+people_group: "any"
+page-layout: full
+image: ../../images/avatar-placeholder.svg
+about:
+  id: about
+  template: jolla
+  image-shape: round
+  image: ../../images/avatar-placeholder.svg
+---

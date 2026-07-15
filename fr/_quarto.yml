@@ -6,31 +6,17 @@ website:
   back-to-top-navigation: true
   navbar:
     pinned: false
-    logo: /images/logo.png
+    logo: images/logo.svg
     left:
-      - text: Substituts du tabac
-        href: smoking.qmd
       - text: Recrutement
         href: Recruitment.qmd
-      - text: Documents
-        menu: 
-          - text: Formulaires de consentement
-            href: Materials.qmd
-          - text: Protocole
-            href: Protocol.qmd
-          - text: Plan d’analyse statistique
-            href: SAP.qmd
-          - text: Brochure produit
-            href: Brochure.qmd
-          - text: Publications scientifiques
-            href: Publications.qmd
-      - text: Partenaires
-        href: Funding.qmd
+      - text: Matériel
+        href: Materials.qmd
+      - text: "Équipe"
+        href: Principal.qmd
       - text: Actualités
         href: news.qmd
-      - text: "Équipe"
-        href: Principal.qmd 
-    right: 
+    right:
       - text: "🌍 Langue"
         menu:
           - text: "English"
@@ -39,13 +25,13 @@ website:
             href: ../de/index.html
       - icon: envelope
         text: Email
-        href: mailto:christof.schoenenberger@usb.ch
+        href: mailto:David.Jackson-Perry@chuv.ch
       - icon: folder
         text: Registry
-        href: https://clinicaltrials.gov/study/NCT06789692?cond=NCT06789692&rank=1
+        href: https://osf.io/mtrnf/overview
       - icon: github
-        href: https://github.com/christofmanuel/RETUNE_website
-  page-footer: © 2025  &middot; Made with [![](https://www.r-project.org/logo/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org) and 
+        href: https://github.com/alainamstutz/adhd-hiv-prep
+  page-footer: © 2026  &middot; Made with [![](https://www.r-project.org/logo/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org) and
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
   search:
     location: navbar

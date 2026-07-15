@@ -1,75 +1,76 @@
 ---
-title: "RETUNE"
-image: "images/logo2.png"
+title: "ADHD-HIV-PrEP"
+image: "images/logo.svg"
 about:
   template: marquee
   image-shape: rectangle
-  image-width: 100%
+  image-width: 60%
   links:
     - icon: envelope
       text: Email
-      href: "mailto:christofmanuel.schoenenberger@usb.ch"  
+      href: "mailto:David.Jackson-Perry@chuv.ch"
     - icon: folder
       text: Registry
-      href: https://clinicaltrials.gov/study/NCT06789692?cond=NCT06789692&rank=1
-editor: 
-  markdown: 
+      href: https://osf.io/mtrnf/overview
+editor:
+  markdown:
     wrap: 72
 ---
 
-**RETUNE is a pragmatic randomized trial within the Swiss HIV Cohort
-Study. The goal of this study is to test different nicotine substitution
-products to stop tobacco smoking.**
+**ADHD-HIV-PrEP is a cross-sectional survey nested within the Swiss
+HIV Cohort Study (SHCS) and the SwissPrEPared cohort. The goal of
+this study is to estimate how common attention-deficit/hyperactivity
+disorder (ADHD) traits are among people living with HIV and among
+people taking HIV pre-exposure prophylaxis (PrEP) in Switzerland.**
 
-Tobacco smoking is a major health burden in people living with HIV.
-Tobacco smoking is major risk factor for the development of
-cardiovascular disease (for example heart attack) and cancer (for
-example lung cancer).
+People living with HIV experience disproportionately high rates of
+mental health challenges, yet adult ADHD is largely absent from the
+HIV literature. Traits associated with ADHD, together with social
+exclusion, adverse life events, stigma, and barriers to accessing
+healthcare, may increase vulnerability to HIV acquisition and
+complicate adherence to treatment and prevention. A comparable
+pathway may apply to people using PrEP. Prevalence data on ADHD in
+people living with HIV are limited to two small-scale studies, and no
+data exist for PrEP users.
 
-RETUNE will test a menu of different nicotine substitution products:
+<p> </p>
 
--   E-cigarettes
+Over a 12-month recruitment period, participants attending routine
+visits will complete a short, validated ADHD screening questionnaire
+(the ASRS-5). Screening data will be linked to routinely collected
+cohort data to describe sociodemographic, behavioural and clinical
+patterns associated with ADHD traits.
 
--   Nicotine pouches
+<p> </p>
 
--   Nicotine patches
+The study is co-created and co-led by people who, alongside their
+academic and clinical practice, have experiential knowledge of the
+topics being explored.
 
-<p> </p>
+<p> </p>
 
-The study participants can choose one of the products and receive the
-product free of charge for 6 months to quit tobacco smoking.
+The ADHD-HIV-PrEP study will be conducted at the following sites:
 
-<p> </p>
+-   Checkpoint Zurich
 
-The RETUNE study will be conducted at the following hospitals:
+-   University Hospital Lausanne (CHUV)
 
--   University Hospital Basel (ongoing)
+-   University Hospital Zurich (USZ)
 
--   University Hospital Bern (ongoing)
+<p> </p>
 
--   University Hospital Zurich (ongoing)
-
--   Cantonal Hospital St. Gallen (ongoing)
-
--   University Hospital Lausanne (ongoing)
-
--   University Hospital Geneva (ongoing)
-
--   Cantonal Hospital Aarau (ongoing)
-
-
-<p> </p>
-
-This study is led by researchers from the University of Basel.
+This study is nested within two established Swiss research
+platforms, the Swiss HIV Cohort Study and SwissPrEPared, and is
+funded by a nested-project grant of the SHCS and a Gilead Fellowship.
 
 ::: {style="background-color: #f0f0f0; padding: 1rem; text-align: center; margin-top: 4rem;"}
 <p><a href="https://www.shcs.ch" target="_blank">
-<img src="images/shcs_logo Kopie.jpg" alt="Logo 1" style="height:120px; margin: 0 1rem;"/>
+<img src="images/shcs_logo.jpg" alt="Swiss HIV Cohort Study" style="height:120px; margin: 0 1rem;"/>
 </a>
-<a href="https://www.tpf.admin.ch/tpf/de/home/fonds/tabakpraeventionsfonds.html" target="_blank">
-<img src="images/logoBAG.png" alt="Logo 2" style="height:120px; margin: 0 1rem;"/>
+<a href="https://www.chuv.ch" target="_blank">
+<img src="images/chuv_logo.png" alt="CHUV Lausanne" style="height:120px; margin: 0 1rem;"/>
 </a>
-<a href="https://www.snf.ch/en/RDtCf0PZrKDKwsI6/funding/careers/md-phd-programme" target="_blank">
-<img src="images/SNSF.png" alt="Logo 3" style="height:120px; margin: 0 1rem;"/>
+<a href="https://www.usz.ch" target="_blank">
+<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:120px; margin: 0 1rem;"/>
 </a></p>
 :::

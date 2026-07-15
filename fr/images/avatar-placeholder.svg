@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect x="4" y="4" width="292" height="292" fill="#F0F4FF" stroke="#D1D9E6" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="18" fill="#868E96" text-anchor="middle">photo</text>
+</svg>

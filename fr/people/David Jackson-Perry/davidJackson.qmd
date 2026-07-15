@@ -1,24 +1,20 @@
 ---
 title: "David Jackson-Perry"
 subtitle: "Docteur"
-role: "Membre du comité consultatif des participants"
 people_group: "any"
+email: "David.Jackson-Perry@chuv.ch"
 page-layout: full
 image: davidJackson.jpeg
-about: 
+about:
   id: about
   template: jolla
   image-shape: round
   image: davidJackson.jpeg
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:David.Jackson-Perry@chuv.ch
     - icon: link
-      text: Plus d'informations 
+      text: Plus d'informations
       href: https://pure.qub.ac.uk/en/persons/david-jackson-perry
 ---
-
-<div style="text-align: center;">
-  <p style="font-size: 18px; font-weight: bold;">Membre du comité consultatif des participants</p>
-</div>
-
-
-

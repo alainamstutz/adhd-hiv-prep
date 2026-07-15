@@ -2,12 +2,12 @@
 title: "Meet the Team!"
 listing:
   - id: any
-    include: 
+    include:
       people_group: "any"
     exclude:
       external: true
     template: _ejs/people-box.ejs
     type: grid
-    fields: [title,role, image]
+    fields: [title, image]
 page-layout: full
 ---

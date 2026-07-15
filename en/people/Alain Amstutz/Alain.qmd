@@ -1,12 +1,11 @@
 ---
 title: "Alain Amstutz"
 subtitle: "MD PhD"
-role: "Co-Principal Investigator"
 people_group: "any"
-email: "alain.amstutz@usb.ch"
+email: "alain.amstutz@unibas.ch"
 page-layout: full
 image: alain.jpg
-about: 
+about:
   id: about
   template: jolla
   image-shape: round
@@ -14,16 +13,12 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:alain.amstutz@usb.ch 
+      href: mailto:alain.amstutz@unibas.ch
     - icon: link
       text: More Information
       href: https://universe.unibas.ch/people/3323/94/overview
 ---
 
 <div style="text-align: center;">
-  <p style="font-size: 18px; font-weight: bold;">Co-Principal Investigator</p>
-</div>
-
-<div style="text-align: center;">
-  <p style="font-size: 18px;">Division of Clinical Epidemiology Basel</p>
+  <p style="font-size: 18px;">Division of Clinical Epidemiology, University Hospital Basel</p>
 </div>
