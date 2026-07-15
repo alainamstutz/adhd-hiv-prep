@@ -6,7 +6,7 @@ website:
   back-to-top-navigation: true
   navbar:
     pinned: false
-    logo: images/logo.svg
+    logo: images/logo_navbar.png
     left:
       - text: Recrutement
         href: Recruitment.qmd

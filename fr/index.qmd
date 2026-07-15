@@ -1,6 +1,6 @@
 ---
 title: "ADHD-HIV-PrEP"
-image: "images/logo.svg"
+image: "images/logo_final_orange_light_v2.png"
 about:
   template: marquee
   image-shape: rectangle
