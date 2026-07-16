@@ -3,3 +3,9 @@
 .RData
 .Ruserdata
 .positai
+
+# Internal-only source document, not for the public repo
+DJP HIV-ADHD_survey protocol publication.docx
+
+# Working document for translators, not for the public repo
+ADHD-HIV-PrEP_website_translations.docx
