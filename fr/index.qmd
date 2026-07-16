@@ -5,10 +5,6 @@ about:
   template: marquee
   image-shape: rectangle
   image-width: 60%
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:David.Jackson-Perry@chuv.ch"
 editor:
   markdown:
     wrap: 72
@@ -16,10 +12,10 @@ editor:
 
 *Traduction française à venir.*
 
-This website is about the intersection of neurodiversity —
-specifically attention-deficit/hyperactivity disorder (ADHD) — and
-HIV, including people living with HIV and people taking HIV
-pre-exposure prophylaxis (PrEP).
+This website is about the intersection of neurodiversity, specifically
+attention-deficit/hyperactivity disorder (ADHD), and HIV, including
+people living with HIV and people taking HIV pre-exposure prophylaxis
+(PrEP).
 
 *(This text is a placeholder and will be expanded.)*
 

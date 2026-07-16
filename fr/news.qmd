@@ -29,7 +29,7 @@ format: html
 .news-item {
   border: 1px solid #ccc;
   padding: 20px;
-  color: white;
+  color: black;
   border-radius: 15px;
   transition: all 0.3s ease;
 }

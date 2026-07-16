@@ -1,17 +1,10 @@
 ---
 title: "The Survey"
-image: "images/logo_final_orange_light_v2.png"
+image: "images/logo_final_orange_darkbg_v2.png"
 about:
   template: marquee
   image-shape: rectangle
   image-width: 60%
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:David.Jackson-Perry@chuv.ch"
-    - icon: folder
-      text: Registry
-      href: https://osf.io/mtrnf/overview
 editor:
   markdown:
     wrap: 72
@@ -44,7 +37,7 @@ patterns associated with ADHD traits.
 <p> </p>
 
 The study is co-created and co-led by people who, alongside their
-academic and clinical practice, have experiential knowledge of the
+academic and clinical practice, have lived experience of the
 topics being explored.
 
 <p> </p>
@@ -75,6 +68,9 @@ See [Recruitment](Recruitment.qmd) for enrolment status, the
 <img src="images/chuv_logo.png" alt="CHUV Lausanne" style="height:120px; margin: 0 1rem;"/>
 </a>
 <a href="https://www.usz.ch" target="_blank">
-<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:120px; margin: 0 1rem;"/>
+<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:80px; margin: 0 1rem;"/>
+</a>
+<a href="https://www.swissprepared.ch" target="_blank">
+<img src="images/swissprepared_RGB-1.png" alt="SwissPrEPared" style="height:120px; margin: 0 1rem;"/>
 </a></p>
 :::

@@ -1,17 +1,10 @@
 ---
 title: "L'étude"
-image: "images/logo_final_orange_light_v2.png"
+image: "images/logo_final_orange_darkbg_v2.png"
 about:
   template: marquee
   image-shape: rectangle
   image-width: 60%
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:David.Jackson-Perry@chuv.ch"
-    - icon: folder
-      text: Registre
-      href: https://osf.io/mtrnf/overview
 editor:
   markdown:
     wrap: 72
@@ -33,6 +26,9 @@ HIV pre-exposure prophylaxis (PrEP) in Switzerland. See the
 <img src="images/chuv_logo.png" alt="CHUV Lausanne" style="height:120px; margin: 0 1rem;"/>
 </a>
 <a href="https://www.usz.ch" target="_blank">
-<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:120px; margin: 0 1rem;"/>
+<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:80px; margin: 0 1rem;"/>
+</a>
+<a href="https://www.swissprepared.ch" target="_blank">
+<img src="images/swissprepared_RGB-1.png" alt="SwissPrEPared" style="height:120px; margin: 0 1rem;"/>
 </a></p>
 :::
