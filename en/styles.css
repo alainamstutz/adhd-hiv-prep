@@ -33,6 +33,10 @@ $gold: #e8e3d3!default;;
 
 $navbar-bg: #1B1D22 !default; // Near-black charcoal so the multicoloured logo pops
 
+$body-bg: #ffffff !default; // Plain white page background instead of quartz's gradient
+$body-color: #1a1a1a !default; // Near-black body text
+$body-bg-image: none !default; // Remove quartz's default rainbow gradient
+
 $primary:   $teal!default;
 $secondary: $gray-700 !default;
 $success:   $green !default;
@@ -67,6 +71,13 @@ $toc-font-size: 1em;
 $btn-code-copy-color-active: $orange !default;
 
 /*-- scss:rules --*/
+
+// Smaller, calmer header type
+.navbar .nav-link,
+.navbar .dropdown-item,
+.navbar-title {
+    font-size: 0.9rem;
+}
 
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
