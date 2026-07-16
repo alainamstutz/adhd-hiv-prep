@@ -79,6 +79,40 @@ $btn-code-copy-color-active: $orange !default;
     font-size: 0.9rem;
 }
 
+// Bigger navbar logo
+.navbar .navbar-logo {
+    max-height: 64px;
+    min-height: 40px;
+}
+
+// Fix invisible white-on-white text in dropdown menus (language / the survey)
+// and in team member cards — quartz's "glass" mixin colors both with
+// $card-color, which defaults to white and is invisible on our white body.
+.dropdown-menu {
+    background-color: $white !important;
+    background-image: none !important;
+}
+
+.dropdown-menu a,
+.dropdown-item {
+    color: $body-color !important;
+}
+
+.dropdown-menu a:hover,
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: $primary !important;
+    background-color: $gray-100 !important;
+}
+
+.card,
+.card a,
+.quarto-grid-item,
+.quarto-grid-item a,
+.listing-box-title {
+    color: $body-color !important;
+}
+
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;
@@ -138,9 +172,7 @@ $btn-code-copy-color-active: $orange !default;
 
 /* -- fonts * --*/
 h1, .h1 {
-   font-family: 'Economica', sans-serif;
-   font-weight: normal;
-   text-transform: uppercase;
+   font-weight: 700;
  }
 
 /*-- background styles --*/

@@ -38,14 +38,12 @@ website:
         href: https://github.com/alainamstutz/adhd-hiv-prep
   page-footer: © 2026  &middot; Made with [![](https://www.r-project.org/logo/Rlogo.png){fig-alt="R" width=25px}](https://www.r-project.org) and
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
-  search:
-    location: navbar
-    type: textbox
-    
+  search: false
+
 format:
   html:
     theme: [quartz, styles.css]
-    mainfont: "Arial, sans-serif"
+    mainfont: "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif"
     fontsize: 1.05rem
 
 editor: visual
