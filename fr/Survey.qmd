@@ -1,0 +1,38 @@
+---
+title: "L'étude"
+image: "images/logo_final_orange_light_v2.png"
+about:
+  template: marquee
+  image-shape: rectangle
+  image-width: 60%
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:David.Jackson-Perry@chuv.ch"
+    - icon: folder
+      text: Registre
+      href: https://osf.io/mtrnf/overview
+editor:
+  markdown:
+    wrap: 72
+---
+
+*Traduction française à venir.*
+
+ADHD-HIV-PrEP is a cross-sectional survey nested within the Swiss HIV
+Cohort Study (SHCS) and the SwissPrEPared cohort, estimating how
+common ADHD traits are among people living with HIV and people taking
+HIV pre-exposure prophylaxis (PrEP) in Switzerland. See the
+[English version](../en/Survey.html) for the full description.
+
+::: {style="background-color: #f0f0f0; padding: 1rem; text-align: center; margin-top: 4rem;"}
+<p><a href="https://www.shcs.ch" target="_blank">
+<img src="images/shcs_logo.jpg" alt="Swiss HIV Cohort Study" style="height:120px; margin: 0 1rem;"/>
+</a>
+<a href="https://www.chuv.ch" target="_blank">
+<img src="images/chuv_logo.png" alt="CHUV Lausanne" style="height:120px; margin: 0 1rem;"/>
+</a>
+<a href="https://www.usz.ch" target="_blank">
+<img src="images/usz_logo2.png" alt="University Hospital Zurich" style="height:120px; margin: 0 1rem;"/>
+</a></p>
+:::
