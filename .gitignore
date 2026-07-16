@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 .positai
+.DS_Store
 
 # Internal-only source document, not for the public repo
 DJP HIV-ADHD_survey protocol publication.docx
